@@ -47,7 +47,6 @@ class Solution {
             list1 = (list1!=null)? list1.next:null;
             list2 = (list2!=null)? list2.next:null;
         }
-        dummyNode = reverse(dummyNode.next);
-        return dummyNode;
+         return reverse(dummyNode.next);
     }
 }
